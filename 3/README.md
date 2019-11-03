@@ -37,3 +37,9 @@ PrintWriter out = new PrintWritter("myfile.ext", "UTF-8");
 
 - 二维数组
   - `double[][] balances = new double[NYEARS][NRATES]`;
+
+- LocalDate
+  - `LocalDate.of(1999, 12, 31)`
+
+- 可以用 public 标记实例域，但是我们推荐最好将实例域标记为 private。
+- 在实现一个类时，由于公有数据非常危险，所以应该将所有的数据都设置为私有的。
